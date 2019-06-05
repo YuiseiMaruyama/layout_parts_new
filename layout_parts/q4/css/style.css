@@ -18,7 +18,6 @@
 .main1{
   background-color: #fdc8b8;
   width: 100px;
-  padding: 20px;
 }
 
 .sub1{
@@ -29,9 +28,10 @@
   background-color: #b6d8ed;
   width: 100px;
 }
-.q4__common__first{
+.q4__common{
   display: table-cell;
   text-align: center;
+  padding: 20px;
 }
 
 
@@ -47,14 +47,8 @@
 .main3{
   background-color: #8fdcad;
   width: 500px;
-  padding: 20px;
 }
 
-
-.q4__common__second{
-  display: table-cell;
-  text-align: center;
-}
 
 
 /* 回答はここに書いてね */
