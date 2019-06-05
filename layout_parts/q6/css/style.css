@@ -2,4 +2,77 @@
 
 /* 回答はここに書いてね */
 
+.q6__content__text{
+  text-align: center;
+}
+
+.q6__content__text__p{
+  padding: 10px 0;
+  display: inline-block;
+  background-color: #e6f2ff;
+  width: 90px;
+}
+
+.q6__content__margin__p{
+  padding: 10px 0;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #e6f2ff;
+  width: 90px;
+}
+
+.q6--around__table{
+  display: table;
+}
+
+
+.q6__content__table{
+  display: table-cell;
+  vertical-align: middle; /*要素の縦位置*/
+  text-align: center;
+  
+}
+
+.q6__content__table__p{
+  background-color: #fff;
+  padding: 10px;
+  display: inline-block;
+}
+
+.q6__content__flex{
+  display: flex;
+  align-items: center; /* アイテムをどのように縦軸に沿ってレイアウトするか */ 
+  justify-content: center; /* アイテムをどのように横軸に沿ってレイアウトするか */
+}
+
+.q6__content__flex__p{
+  padding: 10px;
+  background-color: #fff;
+}
+
+.q6__content__stable{
+  position: relative;
+}
+
+.q6__content__stable__p{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 110px;
+  height: 30px;
+}
+
+.q6__content__flexible{
+  position: relative
+}
+
+.q6__content__flexible__p{
+  position: absolute;
+  top: 50%; /* 要素の左上を起点として上から50%に移動 */
+  left: 50%;  /* 要素の左上を起点として左から50%に移動 */
+  transform: translateY(-50%) translateX(-50%); /* 要素の大きさの半分ずつを戻す */
+}
 /* 回答はここに書いてね */

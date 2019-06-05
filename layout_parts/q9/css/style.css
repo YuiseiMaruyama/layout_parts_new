@@ -1,5 +1,71 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q9__index{
+  margin-top: 20px;
+}
+
+.q9__transition{
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden; /*範囲からはみ出た部分を非表示*/
+  cursor: pointer;
+  width: 500px;
+  height: 333px;
+}
+
+.q9__transition__img{
+  transition: all 0.5s ease-out; /* 変化するすべてのプロパティへの適用 ease-out:ゆっくり終わる */
+}
+
+.q9__transition:hover .q9__transition__img{
+  transform: scale(1.5);
+}
+
+.q9__transition:hover .q9__transition__text{
+  bottom: 0;
+}
+
+.q9__transition__text{
+  position: absolute;
+  bottom: -100%;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s ease-out; /* 変化するすべてのプロパティへの適用 */
+}
+
+.q9__transition__text__index{
+  font-size: 16px;
+  line-height: 16px;
+  position: absolute;
+  bottom: 0;
+  padding: 20px;
+  color: #fff;
+  box-sizing: border-box;
+  background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.8))
+}
+
+@keyframes rotate{
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.q9__animation{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin:  0 auto;
+  border: 10px solid #ECF1F2;
+  border-top-color: #00BCD4;
+  /* background-color: black; */
+  animation-name: rotate;
+  animation-duration: 1.1s; /* アニメーションが始まって終わるまでの時間を指定 */
+  animation-timing-function: linear; /* 開始から終了まで一定に変化 */
+  animation-iteration-count: infinite; /* 無限に再生を繰り返す */
+}
 
 /* 回答はここに書いてね */

@@ -2,4 +2,61 @@
 
 /* 回答はここに書いてね */
 
+.q4__contant{
+  padding: 20px;
+}
+
+.block{
+  display: table;
+  width: 100%;
+}
+
+.block:first-child{
+  margin-bottom: 20px;
+}
+
+.main1{
+  background-color: #fdc8b8;
+  width: 100px;
+  
+}
+
+.sub1{
+  background-color: #e0abd9;
+}
+
+.main2{
+  background-color: #b6d8ed;
+  width: 100px;
+}
+.main1, .sub1, .main2{
+  display: table-cell;
+  text-align: center;
+}
+
+
+.sub2{
+  background-color: #e5d32e;
+  
+}
+
+.sub3{
+  background-color: #ec8f9a;
+}
+
+.main3{
+  background-color: #8fdcad;
+  width: 500px;
+}
+
+.sub1, .main3{
+  padding: 20px;
+}
+
+.sub2, .sub3, .main3{
+  display: table-cell;
+  text-align: center;
+}
+
+
 /* 回答はここに書いてね */

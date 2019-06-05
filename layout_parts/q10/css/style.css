@@ -2,4 +2,43 @@
 
 /* 回答はここに書いてね */
 
+.balloon{
+  position: relative;
+  margin: 0 auto;
+  width: 500px;
+  border-radius: 30px;
+  border: solid 5px #222;
+  padding: 20px;
+}
+
+.q10__text{
+  font-size: 16px;
+  line-height: 16px;
+}
+
+/* アイコンを下に表示 */
+.balloon::before{
+border:20px solid transparent;
+border-top-color:#fff;
+border-bottom-width:0;
+bottom:-18px;
+content:"";
+display:block;
+left:30px;
+position:absolute;
+width:0;
+z-index:1;
+} 
+
+.balloon::after{
+border:20px solid transparent; /* 枠線の透過*/
+border-top-color:#000;
+border-bottom-width:0;
+bottom:-25px;
+content:"";
+display:block;
+left:30px;
+position:absolute;
+width:0;
+}
 /* 回答はここに書いてね */
