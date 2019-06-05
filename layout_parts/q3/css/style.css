@@ -9,25 +9,25 @@
   line-height: 22px;
 }
 
-th{
+.q3__content th{
   background-color: #2244aa;
   font-size: 18px;
   line-height: 26px;
   color: #ffffff;
 }
 
-th,tr,td{
+.q3__content th,td{
   border: solid #dedede 1px;
   text-align: center;
   padding: 10px 0 10px;
 }
 
-tbody tr:nth-child(2n){
+.q3__content tbody tr:nth-child(2n){
   background-color: #ecf1f2;
 }
 
-tbody tr:nth-child(4){
-  border-bottom: dashed #000 2px;
+tbody tr:last-child{
+  border-top: dashed #000 2px;
 }
 
 /* 回答はここに書いてね */
