@@ -63,17 +63,12 @@
 .q7__content__flex{
   display: flex;
   align-items: flex-end;
+  justify-content: space-around;
 }
 
 .q7__content__flex__text{
   vertical-align: middle;
   width: 205px;
-  margin-left: 50px;
-}
-
-.q7__content__flex__text:first-child{
-  justify-content: space-around;
-  margin-left: 0;
 }
 
 .q7__inlineblock__margin{
