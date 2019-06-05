@@ -18,7 +18,7 @@
 .main1{
   background-color: #fdc8b8;
   width: 100px;
-  
+  padding: 20px;
 }
 
 .sub1{
@@ -29,7 +29,7 @@
   background-color: #b6d8ed;
   width: 100px;
 }
-.main1, .sub1, .main2{
+.q4__common__first{
   display: table-cell;
   text-align: center;
 }
@@ -47,13 +47,11 @@
 .main3{
   background-color: #8fdcad;
   width: 500px;
-}
-
-.sub1, .main3{
   padding: 20px;
 }
 
-.sub2, .sub3, .main3{
+
+.q4__common__second{
   display: table-cell;
   text-align: center;
 }
