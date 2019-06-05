@@ -16,7 +16,7 @@
   color: #ffffff;
 }
 
-.q3__content th,td{
+.q3__content th,.q3__content td{
   border: solid #dedede 1px;
   text-align: center;
   padding: 10px 0 10px;
@@ -26,7 +26,7 @@
   background-color: #ecf1f2;
 }
 
-tbody tr:last-child{
+.q3__content tbody tr:last-child{
   border-top: dashed #000 2px;
 }
 
