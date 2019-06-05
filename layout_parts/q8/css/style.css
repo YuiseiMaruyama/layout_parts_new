@@ -7,36 +7,33 @@
   clear: both;
 }
 
-.q8__1__btns{
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.btn1{
+.btn_common{
   color: #ffffff;
   display: inline-block;
   background-color: #00bcd4;
+  cursor: pointer;
 }
 
-.btn2{
+.btn_error{
   color: #ffffff;
   display: inline-block;
   background-color: #ff4081;
   margin-left: 10px;
+  cursor: pointer;
 }
 
-.btn3{
+.btn_disabled{
   color: #ffffff;
   display: inline-block;
   background-color: #e5e5e5;
   margin-left: 10px;
 }
 
-.btn4{
+.btn_shadow{
   display: inline-block;
-  background-color: #00bcd4;
   margin-left: 10px;
   color: #222;
+  cursor: pointer;
   box-shadow: 0 1px 6px rgba(0,0,0,.12);
   box-shadow: 0 1px 4px rgba(0,0,0,.12);
 }
@@ -45,32 +42,23 @@
   padding: 0 15px;
   border-radius: 3px;
   line-height: 26px;
-}
-
-
-.q8__2__btns{
-  font-size: 20px;
-  cursor: pointer;
+  font-size: 16px;
 }
 
 .btn__middle{
   padding: 0 20px;
   border-radius: 5px;
   line-height: 32px;
+  font-size: 20px;
 }
 
-.q8__3__btns{
-  font-size: 24px;
-  cursor: pointer;
-}
 
 .btn__large{
   padding: 0 25px;
   border-radius: 7px;
   line-height: 38px;
+  font-size: 24px;
 }
-
-
 
 
 
